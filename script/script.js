@@ -24,7 +24,7 @@ function validate() {
 
 
   if(form[2].value == "2" && form[4].value == "2")error[4].innerHTML = " this type of cake is not dairy free";
-    elseerror[4].innerHTML = "";
+    else error[4].innerHTML = "";
   if(form[2].value == "2" && form[3].value == "10") (error[3].innerHTML = "this type of cake cannot be delivered at 4 PM.")
     else (error[3].innerHTML = "");
 }
